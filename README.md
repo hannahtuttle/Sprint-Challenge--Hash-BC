@@ -27,8 +27,10 @@ Explain in detail the workings of a dynamic array:
 * What is the worse case scenario if you try to extend the storage size of a dynamic array?
 
 Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
+    The blocks in a hash chain is a set of data that include information. THey seem to always have index, timestamp, transactions, proof, and previous hash. You hash off this information and and when a new block is created it is given this hash as it's previous hash. That is how they are structured together.
  
 Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
+    The proof of work function protects the chain from attack because it takes so long to find a correct proof for every single block that it takes way to much time to run through each block and hash that there have already been new blocks created.
 
 ## Project Set Up
 
